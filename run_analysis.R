@@ -205,10 +205,10 @@ data_averaged[,3:81] <- lapply(data_averaged[,3:81], function(x) trunc(x, prec =
 data_write <- data_averaged
 
 ## Export created data to text file
-write.table(data_averaged,my_desttidy, fileEncoding = "UTF-8")
+write.table(data_averaged,my_desttidy, fileEncoding = "UTF-8", row.names = FALSE)
 
 ## Check that the produced data when loaded into R matches the exported data
-data_read<- read.table(my_desttidy, fileEncoding = "UTF-8")
+data_read<- read.table(my_desttidy, fileEncoding = "UTF-8", header = TRUE)
 if(prod(data_read==data_write)){print("Reloaded data matches created data")}
 
 ##EOF
