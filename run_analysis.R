@@ -1,3 +1,5 @@
+## 2016-10-28 Created by Zapretis1
+## 
 ## This R script called run_analysis.R does the following:
 ## 0) Loads the data into R
 ## 1) Merges the training and the test sets to create one data set.

@@ -1,3 +1,5 @@
+## 2016-10-28 Created by Zapretis1
+## 
 ## This R script called setup_review.R helps fellow markers setting up the
 ## environment to make peer reviewing easier, faster and straightforwar
 ## This scripts downloads the raw data in an appropriate directory
