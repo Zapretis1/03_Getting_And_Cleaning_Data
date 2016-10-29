@@ -3,7 +3,8 @@
 
 There are 81 variables encompassing the id of the subject who performed the activity, the label of the activity and 79 averaged features for each combination of subject and activity.
 The number of subjects is 30.
-The number of activities is 6
+The number of activities is 6.
+There are therefore 180 observations.
 
 Feature Selection 
 =================
